@@ -1,0 +1,8 @@
+---
+parsed_sample:
+  - addr_status: ""
+    intf_status: "Down"
+    ip_address: ""
+    ip_config: "disabled"
+    member: "Global"
+    prefix_length: ""

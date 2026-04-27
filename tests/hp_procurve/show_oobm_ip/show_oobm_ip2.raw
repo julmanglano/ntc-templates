@@ -1,0 +1,8 @@
+  IPv4 Status          : Enabled
+  IPv4 Default Gateway : 172.28.160.254
+
+        |                                     Address  Interface
+ Member | IP Config IP Address/Prefix Length  Status   Status
+ ------ + --------- ------------------------- -------- ---------
+ Global | manual    172.28.160.220/24         Active   Up
+ 1      | manual    172.28.160.220/24         Active   Up

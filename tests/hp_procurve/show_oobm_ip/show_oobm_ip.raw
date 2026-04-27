@@ -1,0 +1,7 @@
+  IPv4 Status          : Disabled
+  IPv4 Default Gateway :
+
+        |                                     Address  Interface
+ Member | IP Config IP Address/Prefix Length  Status   Status
+ ------ + --------- ------------------------- -------- ---------
+ Global | disabled                                     Down

@@ -1,0 +1,14 @@
+---
+parsed_sample:
+  - addr_status: "Active"
+    intf_status: "Up"
+    ip_address: "172.28.160.220"
+    ip_config: "manual"
+    member: "Global"
+    prefix_length: "24"
+  - addr_status: "Active"
+    intf_status: "Up"
+    ip_address: "172.28.160.220"
+    ip_config: "manual"
+    member: "1"
+    prefix_length: "24"

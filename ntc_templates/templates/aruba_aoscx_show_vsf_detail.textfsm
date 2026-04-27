@@ -3,6 +3,8 @@ Value TOPOLOGY (\S+)
 Value NAME (\S+)
 Value MAC_ADDRESS (\S+)
 Value STATUS (.*)
+Value TYPE (\S+)
+Value MODEL (.*)
 Value SERIAL_NUMBER (\S+)
 Value CPU (\d+%)
 Value MEMORY (\d+%)
@@ -16,6 +18,8 @@ Start
   ^Member.* -> Continue.Record
   ^Member\s+ID\s+:\s+${MEMBER_ID}
   ^\s+MAC\s+Address\s+:\s+${MAC_ADDRESS}
+  ^\s+Type\s+:\s+${TYPE}
+  ^\s+Model\s+:\s+${MODEL}
   ^\s+Status\s+:\s+${STATUS}
   ^\s+Serial\s+Number\s+:\s+${SERIAL_NUMBER}
   ^\s+CPU\s+Utilization\s+:\s+${CPU}
